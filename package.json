@@ -1,0 +1,32 @@
+{
+  "name": "toolbox-server",
+  "version": "1.0.0",
+  "description": "Prueba toolbox server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvsan1/toolbox-server.git"
+  },
+  "author": "Alvaro Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvsan1/toolbox-server/issues"
+  },
+  "homepage": "https://github.com/alvsan1/toolbox-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-express": "^1.2.0",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
